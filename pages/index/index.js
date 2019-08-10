@@ -27,7 +27,7 @@ Page({
 
       arCom.init().then(function(e) {
         app.log("init over");
-        arCom.loadGltf("http://192.168.20.170:8080/ar-model/glTF/BoomBox.gltf").then(function(e){
+        arCom.loadGltf("http://192.168.20.170:8081/glTF/BoomBox.gltf").then(function(e){
             wx.showModal({
               title: '',
               content: '模型加载成功',

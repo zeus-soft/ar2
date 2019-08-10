@@ -177,7 +177,7 @@ export default class JMAr {
     wx.startDeviceMotionListening({
        interval: "game"
      });
-     wx.onDeviceMotionChange(this.onDeviceMotionChange.bind(this))
+     //wx.onDeviceMotionChange(this.onDeviceMotionChange.bind(this))
 
     wx.startAccelerometer();
     wx.onAccelerometerChange(this.onAccelerometerChange.bind(this));
